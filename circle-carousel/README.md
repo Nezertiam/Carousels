@@ -2,6 +2,8 @@
 
 This is a 2D circular carousel with cards style elements.
 
+Elements will go from front to back and vice versa with a scale animation to look like it's a 3D animation. Elements only scale themselves and don't rotate themselves.
+
 ## Variants
 
 ### 3 by 3 display style
