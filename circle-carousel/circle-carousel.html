@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carousel.css">
+    <script src="carousel.js"></script>
+    <title>Carousel TEST</title>
+</head>
+<body style="margin: 0;">
+
+    <!-- 
+        The style here can be removed.
+        It's only for a visual confort during
+        your integration.
+
+        This carousel supports from one up to
+        infinite elements.
+    -->
+    <style>
+        .circle-carousel-card {
+            background-color: lightgray;
+        }
+        .circle-carousel-controls {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: white;
+            text-shadow: #000 1px 0 15px;
+        }
+        .circle-carousel-controls.previous::before {
+            content: "<"
+        }
+        .circle-carousel-controls.next::before {
+            content: ">"
+        }
+    </style>
+    <!-- --------------------------------  -->
+
+    
+    <div class="circle-carousel">
+
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+
+        <button class="circle-carousel-controls previous"></button>
+        <button class="circle-carousel-controls next"></button>
+
+    </div>
+
+    <div class="circle-carousel force-format-to-1by1">
+
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+        <div class="circle-carousel-card"></div>
+
+        <button class="circle-carousel-controls previous"></button>
+        <button class="circle-carousel-controls next"></button>
+
+    </div>
+    
+</body>
+</html>
